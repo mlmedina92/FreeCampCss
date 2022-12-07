@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem;
+    font-family: sans-serif;
+    background-color: #f3f3f3;
+}
+
+ul {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+
+.titulo1 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 275px;
+    margin: auto;
+}
+
+form input,
+form h3 {
+    margin-bottom: 1rem;
+    border: 1px grey solid;
+    border-radius: 2px;
+    height: 2rem;
+}
+
+form button,
+.selec-btn {
+    max-width: 200px;
+    margin: 0 auto;
+    background-color: #f1c40f;
+    height: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.cuadros {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.recuadro {
+    padding: 2rem;
+    border: 1px grey solid;
+}
+
+.recuadro p {
+    padding-bottom: .5rem;
+}
+
+footer,
+.copi{
+    width: 48%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: end;
+    align-items: center;
+        background-color: rgb(166, 156, 156);
+}    
+
+footer ul li{
+display: inline;
+margin-inline-end: 1rem;
+}
+
