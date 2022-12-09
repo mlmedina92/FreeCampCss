@@ -5,7 +5,7 @@
 }
 
 body {
-    padding: 2rem;
+    padding: 2rem 0 0 0;
     font-family: sans-serif;
     background-color: #f3f3f3;
 }
@@ -45,7 +45,7 @@ nav ul {
 form {
     display: flex;
     flex-direction: column;
-    max-width: 275px;
+    max-width: 50%;
     margin: auto;
     margin-bottom: 4rem;
 }
@@ -61,7 +61,7 @@ form h3 input {
 
 form button,
 .selec-btn {
-    max-width: 200px;
+    max-width: 100%;
     margin: 0 auto;
     background-color: #f1c40f;
     height: 2rem;
@@ -69,9 +69,10 @@ form button,
     font-weight: bold;
     border: none;
     border-radius: 2px;
-    transition:background-color 1s
+    transition: background-color 1s
 }
-.selec-btn:hover{
+
+.selec-btn:hover {
     background-color: orange;
     cursor: pointer;
 }
@@ -103,7 +104,7 @@ form button,
     align-items: center;
     justify-content: center;
     margin: 2rem;
-    
+
 }
 
 .recuadro {
@@ -120,11 +121,52 @@ form button,
     line-height: 2rem;
     text-align: center;
     margin: 0 2rem
-    
 }
 
-.card-footer{
+.card-footer {
     display: flex;
     padding: .5rem 0;
 }
 
+footer {
+    background-color: gainsboro;
+    max-width: 762px;
+    padding: 0;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: end;
+    gap: 19px
+    padding-bottom:.5rem,
+}
+
+.copi {
+    display: flex;
+    justify-content: end;
+}
+
+/* MQ MOBILE  */
+@media (max-width: 576px) {
+    #header-img {
+        display: none;
+    }
+
+    video {
+        width: 300px;
+    }
+
+    .cuadros {
+        flex-direction: column;
+    }
+
+    footer {
+        background-color: gainsboro;
+        max-width: 230px;
+
+    }
+}
