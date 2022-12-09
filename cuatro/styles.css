@@ -23,8 +23,6 @@ a {
 }
 
 
-
-
 nav {
     display: flex;
     justify-content: space-around;
@@ -49,14 +47,16 @@ form {
     flex-direction: column;
     max-width: 275px;
     margin: auto;
+    margin-bottom: 4rem;
 }
 
 form input,
-form h3 {
+form h3 input {
+    outline: none;
     margin-bottom: 1rem;
-    border: 1px grey solid;
-    border-radius: 2px;
+    border: none border-radius: 2px;
     height: 2rem;
+    padding: .5rem;
 }
 
 form button,
@@ -68,15 +68,27 @@ form button,
     text-transform: uppercase;
     font-weight: bold;
     border: none;
+    border-radius: 2px;
+    transition:background-color 1s
+}
+.selec-btn:hover{
+    background-color: orange;
+    cursor: pointer;
 }
 
-.section1 {
+
+.section-1 {
     display: flex;
     flex-direction: column;
-    padding: 0px;
-    margin: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-p {
+    display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 .video {
@@ -86,33 +98,33 @@ form button,
 }
 
 .cuadros {
-    display: flex;
-    justify-content: center;
     gap: 3rem;
-    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    
 }
 
 .recuadro {
-    padding: 2rem;
     border: 1px grey solid;
 }
 
-.recuadro p {
-    padding-bottom: .5rem;
+.title-card {
+    background-color: grey;
+    text-align: center;
+    pading: 1rem;
 }
 
-footer,
-.copi{
-    width: 48%;
-    display: flex;
-    margin: 0 auto;
-    justify-content: end;
-    align-items: center;
-        background-color: rgb(166, 156, 156);
-}    
+.body-card {
+    line-height: 2rem;
+    text-align: center;
+    margin: 0 2rem
+    
+}
 
-footer ul li{
-display: inline;
-margin-inline-end: 1rem;
+.card-footer{
+    display: flex;
+    padding: .5rem 0;
 }
 
