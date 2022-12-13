@@ -10,6 +10,9 @@ body {
     background-color: #f3f3f3;
 }
 
+main{
+    margin-bottom: 2rem;
+}
 ul {
     list-style: none;
 }
@@ -22,7 +25,13 @@ a {
 
 }
 
-
+#nav-bar{
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: #f1c40f;
+    width: 100%;
+}
 nav {
     display: flex;
     justify-content: space-around;
