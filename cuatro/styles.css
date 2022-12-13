@@ -54,13 +54,13 @@ form input,
 form h3 input {
     outline: none;
     margin-bottom: 1rem;
-    border: none border-radius: 2px;
+    border: none ;
+    border-radius: 2px;
     height: 2rem;
     padding: .5rem;
 }
 
-form button,
-.selec-btn {
+#submit {
     max-width: 100%;
     margin: 0 auto;
     background-color: #f1c40f;
@@ -72,7 +72,7 @@ form button,
     transition: background-color 1s
 }
 
-.selec-btn:hover {
+#submit:hover {
     background-color: orange;
     cursor: pointer;
 }
@@ -141,8 +141,7 @@ footer {
 footer ul {
     display: flex;
     justify-content: end;
-    gap: 19px
-    padding-bottom:.5rem,
+    gap: 19px padding-bottom:.5rem,
 }
 
 .copi {

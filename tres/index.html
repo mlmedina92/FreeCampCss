@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -25,43 +25,41 @@
     <ul class="lista" id="lista">
 
       <li id="section1"><a href="#introduction" rel="noopener noreferrer">introduction</a></li>
-      <li id=""><a href="already_know" class="nav-link" rel="noopener noreferrer">What you should already know
+      <li id=""><a href="#already_know" class="nav-link" rel="noopener noreferrer">What you should already know
         </a></li>
-      <li id="section2"><a href="#javascript" class="nav-link" rel="noopener noreferrer">JavaScript and
+      <li id="section2"><a href="#javascript_and_java" class="nav-link" rel="noopener noreferrer">JavaScript and
           Java
         </a></li>
       <li id="section3"><a href="#hello_world" class="nav-link" rel="noopener noreferrer">Hello world
         </a></li>
       <li id="section4"><a href="#variables" class="nav-link" rel="noopener noreferrer">Variables
         </a></li>
-      <li id="section5"><a href="#declaring" class="nav-link" rel="noopener noreferrer">Declaring
+      <li id="section5"><a href="#declaring_variables" class="nav-link" rel="noopener noreferrer">Declaring
           variables
         </a></li>
-      <li id="section6"><a href="#scope" class="nav-link" rel="noopener noreferrer">Variable scope
+      <li id="section6"><a href="#variable_scope" class="nav-link" rel="noopener noreferrer">Variable scope
         </a></li>
-      <li id="section7"><a href="#global" class="nav-link" rel="noopener noreferrer">Global variables
+      <li id="section7"><a href="#global_variables" class="nav-link" rel="noopener noreferrer">Global variables
         </a></li>
       <li id="section8"><a href="#constants" class="nav-link" rel="noopener noreferrer">Constants
         </a></li>
-      <li id="section9"> <a href="#data" class="nav-link" rel="noopener noreferrer">Data types
+      <li id="section9"> <a href="#data_types" class="nav-link" rel="noopener noreferrer">Data types
         </a></li>
-      <li id="section10"> <a href="#statement" class="nav-link" rel="noopener noreferrer">if...else
+      <li id="section10"> <a href="#if_else_statement" class="nav-link" rel="noopener noreferrer">if else
           statement
         </a></li>
-      <li id="section11"> <a href="#statement" class="nav-link" rel="noopener noreferrer">while
+      <li id="section11"> <a href="#while_statement" class="nav-link" rel="noopener noreferrer">while
           statement
         </a></li>
-      <li id="section12"> <a href="#while" class="nav-link" rel="noopener noreferrer">Function
-          declarations
-        </a></li>
-      <li id="therteen"> <a href="#references" class="nav-link" rel="noopener noreferrer">Reference </a>
+   
+      <li id="therteen"> <a href="#reference" class="nav-link" rel="noopener noreferrer">Reference </a>
       </li>
     </ul>
   </nav>
 
   <main id="main-doc">
     <section class="main-section" id="introduction">
-      <h2>Introduction</h2>
+      <header>Introduction</header>
       <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and
         lightweightlanguage. Inside a host environment (for example, a web browser), JavaScript can be connected
         to theobjects of its environment to provide programmatic control over them.</p>
@@ -91,7 +89,7 @@
           main page about JavaScript.</li>
       </ul>
     </section>
-    <section class="main-section" id="javascript">
+    <section class="main-section" id="javascript_and_java">
       <header>JavaScript and Java </header>
       <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript
         language resembles Java but does not have Java's static typing and strong type checking. JavaScript
@@ -126,8 +124,8 @@ greetMe("World");</code>
 
       <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
     </section>
-    <section class="main-section" id="variables">
-      <header>Variables</header>
+    <section class="main-section" id="declaring_variables">
+      <header> declarin Variables</header>
       <p>You use variables as symbolic names for values in your application. The names of variables, called
         identifiers, conform to certain rules.</p>
       <p> A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent
@@ -157,7 +155,7 @@ greetMe("World");</code>
       </div>
       <p>This syntax can be used to declare a block scope local variable. See Variable scope below. </p>
     </section>
-    <section class="main-section" id="scope">
+    <section class="main-section" id="variable_scope">
       <header>Variable scope</header>
       <p>When you declare a variable outside of any function, it is called a global variable, because it is
         available to any other code in the current document. When you declare a variable within a function, it
@@ -174,7 +172,7 @@ greetMe("World");</code>
         <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined</code>
       </div>
     </section>
-    <section class="main-section" id="global">
+    <section class="main-section" id="global_variables">
 
       <header>Global variables</header>
       <p>
@@ -231,7 +229,7 @@ greetMe("World");</code>
         </code>
       </div>
     </section>
-    <section class=" main-section" id="data">
+    <section class=" main-section" id="data_types">
       <header>Data types</header>
       <p>The latest ECMAScript standard defines seven data types:</p>
       <ul>
@@ -252,8 +250,8 @@ greetMe("World");</code>
         <li>and Object</li>
         </ol>
     </section>
-    <section class=" main-section" id="statement">
-      <header>if...else statement</header>
+    <section class=" main-section" id="if_else_statement">
+      <header>if else statement</header>
       <p>
         Use the if statement to execute a statement if a logical condition is
         true. Use the optional else clause to execute a statement if the
@@ -312,7 +310,7 @@ greetMe("World");</code>
         <code>if ((x = y)) { /* statements here */ } </code>
       </div>
     </section>
-    <section class=" main-section" id="while">
+    <section class=" main-section" id="while_statement">
       <header>while statement</header>
       <p>
         A while statement executes its statements as long as a specified
@@ -354,7 +352,7 @@ greetMe("World");</code>
         <p>
           After completing the third pass, the condition n < 3 is no longer true, so the loop terminates. </p>
     </section>
-    <section class="main-section" id="references">
+    <section class="main-section" id="reference">
       <header>Reference</header>
       <ul>
         <li>All the documentation in this page is taken from <a href=""> MDN</a></li>
